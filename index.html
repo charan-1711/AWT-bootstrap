@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      p{
+        /* transform: rotate(90deg); */
+      }
+    </style>
 </head>
 <body class="bg-black p-2">
-    <style type="text/tailwindcss">
+    <!-- <style type="text/tailwindcss">
         @layer utilities {
           .content-auto {
             content-visibility: auto;
           }
         }
-      </style>
+      </style> -->
       <div class="text-center font-bold text-white">
         <h1 class="text-3xl">
         DEPARTMENT OF COMPUTER APPLICATIONS
@@ -45,7 +50,7 @@
         <div class="border border-bg-white p-3">09:55-10:50</div>
         <div class="border border-bg-white p-3">11:10-12:05</div>
         <div class="border border-bg-white p-3">12:05-1:00</div>
-        <div class="border border-bg-white p-3 row-span-7 text-align-center">Lunch Break</div>
+        <div class="lunch border border-bg-white p-3 row-span-7 text-align-center"><p class="rotate-90 mt-20 tracking-wider">Lunch Break</p></div>
         <div class="border border-bg-white p-3">2:00-3:00</div>
         <div class="border border-bg-white p-3">3:00-4:00</div>
         <div class="border border-bg-white p-3">4:00-5:00</div>
